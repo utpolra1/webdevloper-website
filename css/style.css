@@ -1,0 +1,50 @@
+body{
+    font-family: 'lato',sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* style for navbar */
+.navspan{
+    color:rgba(253, 110, 10, 1)
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+nav title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px ;
+}
+nav a{
+    text-decoration: none;
+    color: #181818;
+     
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* h3{
+    font-weight: 800px;
+} */
+
+/* nav > ul > li{
+    display: flex;
+    text-decoration: none;
+}
+a{
+    list-style: none;
+} */
