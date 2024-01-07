@@ -3,48 +3,56 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /* style for navbar */
-.navspan{
-    color:rgba(253, 110, 10, 1)
-}
-nav {
+nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+nav ul{
+    display: flex;
+    text-align: center;
+    color: #181818;
+    text-align: center;
+    align-items: center;
 
 }
-nav title{
-    color: black;
-    font-size: 45px;
-    font-weight: 800;
-}
-nav >ul{
-    display: flex;
-    align-items: center;
-}
 nav li{
+    margin-right: 50px;
     list-style: none;
-    margin-right: 50px ;
+}
+.primary-color{
+    color: #FD6E0A;
 }
 nav a{
     text-decoration: none;
     color: #181818;
-     
 }
 .btn-primary{
     border-radius: 5px;
     background-color: #FD6E0A;
-    border: 0;
     color: white;
+    border:0;
     font-size: 20px;
-    font-weight: 700;
+    padding: 15px 35px;
 }
-/* h3{
-    font-weight: 800px;
-} */
-
-/* nav > ul > li{
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.header{
+    background-color:rgba(255, 248, 243, 1) ;
+}
+/* baner style */
+.baner{
+    padding: 50px, 30px 30px 150px;
     display: flex;
-    text-decoration: none;
+    align-items: center;
 }
-a{
-    list-style: none;
-} */
+.banerimg{
+    width: 500px;
+}
+.baner-content{
+    
+}
